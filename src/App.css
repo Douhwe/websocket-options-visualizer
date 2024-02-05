@@ -1,38 +1,138 @@
+/* App.css */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    text-align: center;
+    background-color: white;
+    color: #333;
+    font-family: Arial, sans-serif;
   }
+  
+  /* Header styling */
+h1 {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 3.0em;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: -200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #D252FA;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
   }
-  to {
-    transform: rotate(360deg);
+
+
+.current-time {
+    font-size: 1.2em;
+    margin-left: 10px;
+    padding-left: 25px;
+    color: black;
   }
-}
+
+  .App-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .disclaimer-container {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .disclaimer {
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #ff4500;
+    color: black;
+  }
+
+  .disclaimer-message {
+    margin-left: 25px;
+    font-weight: bold;
+  }
+
+  .model-container {
+    margin-top: 15px;
+    margin-left: -12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .model {
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #42F56C;
+    color: black;
+  }
+
+  .model-message {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  .info-container {
+    margin-top: 20px;
+    margin-left: -12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .information {
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: lightskyblue;
+    color: black;
+  }
+  
+  .info-message {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  select {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  option {
+    color: #333;
+  }
+  
+  .info {
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .stock-symbol {
+    font-weight: bold;
+    margin-right: 15px;
+    color: #3f51b5;
+  }
+  
+  .stock-price {
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .reset {
+    border-radius: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: yellow;
+  }
+
+
+  
